@@ -31,7 +31,6 @@ jobs:
                - sleep 30
                - adb shell input keyevent 82
                # run tests  against the emulator.
-               - ./gradlew connectedDevelopmentDebugAndroidTest -PdisablePreDex
       - run:
           name: Run Tests
           command: echo "RUN TEST"
