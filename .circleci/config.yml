@@ -25,7 +25,7 @@ jobs:
         pre:
             - wget "https://services.gradle.org/distributions/gradle-2.13-bin.zip"; unzip gradle-2.13-bin.zip
             - source environmentSetup.sh && copyEnvVarsToGradleProperties
-
+            - sudo ANDROID_HOME=/usr/local/android-sdk-linux ./gradlew dependencies
     steps:
       - checkout
 
