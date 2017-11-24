@@ -21,6 +21,7 @@ jobs:
       JVM_OPTS: -Xmx3200m
       TERM: dumb
 
+
 dependencies:
     pre:
         - wget "https://services.gradle.org/distributions/gradle-4.1-bin.zip"; unzip gradle-4.1-bin.zip
