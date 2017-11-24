@@ -1,0 +1,1 @@
+[![CircleCI](https://circleci.com/gh/uditunpluged/ColorMemory.svg?style=svg)](https://circleci.com/gh/uditunpluged/ColorMemory)
