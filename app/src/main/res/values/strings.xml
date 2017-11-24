@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Colour Memory</string>
+    <string name="colour1">"@drawable/colour1"</string>
+    <string name="colour2">"@drawable/colour2"</string>
+    <string name="colour3">"@drawable/colour3"</string>
+    <string name="colour4">"@drawable/colour4"</string>
+    <string name="colour5">"@drawable/colour5"</string>
+    <string name="colour6">"@drawable/colour6"</string>
+    <string name="colour7">"@drawable/colour7"</string>
+    <string name="colour8">"@drawable/colour8"</string>
+
+
+</resources>
