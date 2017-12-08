@@ -23,6 +23,9 @@ jobs:
       - run:
           name: Run Test 1
           command: ./gradlew test
+      - run:
+          name: Read Data from json
+          command: $ adb shell am instrument -w -r   -e debug false -e class phantasmist.com.colourmemory.GameActivityTest phantasmist.com.colourmemory.test/android.support.test.runner.AndroidJUnitRunner
       - store_artifacts:
           path: app/build/reports
           destination: reports
